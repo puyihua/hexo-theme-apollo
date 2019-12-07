@@ -1,9 +1,8 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    Posts: /
+    Projects: /projects
+    CV: /cv
+    findme: /findme
 
 favicon: /favicon.png
 logo: /favicon.png
@@ -18,4 +17,4 @@ duoshuo:
 # ga: UA-xxxxxxxx-x
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2017

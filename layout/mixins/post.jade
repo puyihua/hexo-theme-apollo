@@ -46,3 +46,12 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+
+//- Normal Page
+mixin normalPage(item)
+    .post
+        article.post-block
+            h1.post-title
+                != item.title
+            .post-content
+                != item.content
