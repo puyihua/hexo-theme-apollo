@@ -1,8 +1,9 @@
 menu:
     Posts: /
     Projects: /projects
+    Photos: /photos
     Résumé: /resume
-    findme: /findme
+    FindMe: /findme
 
 favicon: /favicon.png
 logo: /favicon.png
