@@ -1,6 +1,6 @@
 ::selection {
     color: #FFFFFF;
-    background-color: #42b983;
+    background-color: #248bcf;
 }
 
 html, body {
@@ -33,11 +33,11 @@ a, a:active {
     text-decoration: none;
 }
 
-a.nav-list-link.active,
-a.nav-list-link:hover,
-a.post-title-link:hover {
-    border-bottom: 2px solid #42b983;
-}
+// a.nav-list-link.active,
+// a.nav-list-link:hover,
+// a.post-title-link:hover {
+//     border-bottom: 2px solid #248bcf;
+// }
 
 hr {
     border: 0;
@@ -77,3 +77,26 @@ table {
         }
     }
 }
+
+.gbutton {
+    font-size: 16px;
+    font-family: "Benton Sans",'Libre Franklin', Helvetica,sans-serif;
+    background-color:rgb(131, 255, 205);
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+    padding: 0.375em 0.5em 0.1875em;
+    &:hover {
+        background-color: yellow;
+        box-shadow: 3px 3px black;
+        outline:0;
+    }
+    &.active,
+    &:active {
+        background-color: lightgrey;
+        box-shadow: 1px 1px black;
+        outline:0;
+    }
+  }
