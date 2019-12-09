@@ -1,10 +1,10 @@
-@import url(fonts.googleapis.com/css?family=Libre+Franklin:400,600&display=swap);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400,600|Roboto&display=swap");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -368,7 +368,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   background-color: #fff;
-  font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif; }
 
 ul.nav,
 ul.post-list {
@@ -414,7 +414,7 @@ table {
 
 .gbutton {
   font-size: 16px;
-  font-family: "Benton Sans",'Libre Franklin', Helvetica,sans-serif;
+  font-family: 'Benton Sans','Libre Franklin', Helvetica,sans-serif;
   background-color: #83ffcd;
   font-weight: 600;
   border-radius: 5px;
@@ -817,11 +817,5 @@ footer {
       font-weight: 100; }
     footer .copyright a:hover {
       color: #888; }
-
-@font-face {
-  font-family: 'sourcesanspro';
-  src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
 
 /*# sourceMappingURL=apollo.css.map */
