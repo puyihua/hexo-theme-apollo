@@ -49,9 +49,7 @@ mixin post(item)
 
 //- Normal Page
 mixin normalPage(item)
-    .post
+    .page
         article.post-block
-            h1.post-title
-                != item.title
-            .post-content
+            .page-content
                 != item.content
